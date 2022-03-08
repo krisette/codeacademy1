@@ -29,17 +29,18 @@ body {
     overflow: hidden;
     background-color: RosyBrown;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
   }
   
   .navigation li {
-    float: left;
+    display: inline;
   }
   
   .navigation li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
   }
   
