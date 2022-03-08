@@ -1,0 +1,84 @@
+body {
+    background-color: MistyRose;
+  }
+  
+  /* header */
+  
+  .header h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: LightPink;
+    display: block;
+    padding: 20px;
+    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .header h5 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  /* nav menu */
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: RosyBrown;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navigation li {
+    float: left;
+  }
+  
+  .navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation li a:hover {
+    background-color: pink;
+  }
+  
+  /* table */
+  
+  table {
+    background-color: PapayaWhip;
+    border: 1px solid LightGray;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  
+  th {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14pt;
+    letter-spacing: 3px;
+   }
+  
+  td {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+   }
+  
+  td:nth-child(2) {
+    font-family: 'Cutive Mono', monospace;
+   }
+
+/* footer */
+
+.footer {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14pt;
+    text-align: center;
+    letter-spacing: 2pt;
+}
