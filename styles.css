@@ -60,9 +60,11 @@ body {
   
   th {
     text-transform: uppercase;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', sans-serif;
     font-size: 14pt;
     letter-spacing: 3px;
+    background-color: PaleVioletRed;
+    color: white;
    }
   
   td {
