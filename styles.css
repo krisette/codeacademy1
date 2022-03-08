@@ -1,87 +1,123 @@
-body {
-    background-color: MistyRose;
-  }
-  
-  /* header */
-  
-  .header h1 {
-    color: white;
-    text-align: center;
-    letter-spacing: 5px;
-    background-color: LightPink;
-    display: block;
-    padding: 20px;
-    margin: 50px;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .header h5 {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-  }
-  
-  /* nav menu */
-  
-  .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: RosyBrown;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-  }
-  
-  .navigation li {
-    display: inline;
-  }
-  
-  .navigation li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 10px 25px;
-    text-decoration: none;
-  }
-  
-  .navigation li a:hover {
-    background-color: pink;
-  }
-  
-  /* table */
-  
-  table {
-    background-color: PapayaWhip;
-    border: 1px solid LightGray;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-   }
-  
-  th {
-    text-transform: uppercase;
-    font-family: 'Permanent Marker', sans-serif;
-    font-size: 14pt;
-    letter-spacing: 3px;
-    background-color: PaleVioletRed;
-    color: white;
-   }
-  
-  td {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-   }
-  
-  td:nth-child(2) {
-    font-family: 'Cutive Mono', monospace;
-   }
+body, html {
+  background-color: #fff0f5;
+  height: 100%;
+}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/header-jlee.jpg");
+height: 40%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+position: relative;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: xxx-large;
+}
+
+/* nav menu */
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DEA5A4;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navigation li a:hover {
+  background-color: #efbbcc;
+}
+
+/* table */
+
+.main p {
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 2%;
+}
+
+table {
+  background-color: #fff;
+  border: 1px solid LightGray;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+th {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14pt;
+  letter-spacing: 3px;
+  background-color: PaleVioletRed;
+  color: white;
+  padding: 10px;
+ }
+
+ th:nth-child(1) {
+   column-width: 100px;
+ }
+
+td {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+ }
+
+ td:nth-child(1) {
+  column-width: 100px;
+ }
+
+td:nth-child(2) {
+  font-family: 'Cutive Mono', monospace;
+ }
+
+.main h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: smaller;
+  font-style: italic;
+  text-align: center;
+}
 
 /* footer */
 
-.footer {
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 14pt;
-    text-align: center;
-    letter-spacing: 2pt;
+.footer p {
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14pt;
+  text-align: center;
+  letter-spacing: 2pt;
 }
